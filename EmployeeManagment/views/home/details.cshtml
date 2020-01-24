@@ -1,0 +1,26 @@
+﻿@model EmployeeManagment.Models.Employee;
+
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="card">
+    <div class="row">
+       
+        <div class="col-6">
+            <div class="card-header">
+                @Model.Name
+            </div>
+            <div class="card-body">
+
+                <img src="~/images/user.jpg" class="card-img-top" />
+
+            </div>
+            <div class="card-footer">
+                <h5> @Model.Email</h5>
+            </div>
+        </div>
+    </div>
+
+</div>
